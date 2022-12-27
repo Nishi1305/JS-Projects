@@ -1,0 +1,218 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(to bottom ,#0E3E44,#121212);
+
+}
+.nav
+{
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid black ; */
+    float: right;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .icons 
+{
+    /* border: 1px solid rgb(84, 31, 31); */
+    margin-left: 30px;
+    justify-content: space-between;
+    display: flex;
+    width: 86px;
+}
+.nav .icons i
+{
+    font-size: 30px;
+    /* color: #393636; */
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px;
+    border: 2px solid black;
+}
+
+.nav .account
+{
+    /* border: 1px solid rgb(34, 22, 123); */
+    
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-right:100px ;
+}
+
+.nav .account button
+{
+    height: 32px;
+    width: 90px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color:transparent;
+    font-weight:900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.nav .account .upgrade
+{
+    font-size: 15px;
+
+}
+.nav .account .upgrade:hover
+{
+    background-color: black;
+    border: 2px solid white;
+    
+}
+.nav .account .nishi:hover
+{
+    background-color: rgb(35, 33, 33);
+
+}
+
+
+.nav .account .nishi 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+.nav .account .nishi .profile
+{
+    font-size: 26px;
+    color: #535353;
+    background-color: white;
+    border-radius: 50%;
+}
+.nav .account .nishi .down-arrow
+{
+    font-size: 16px;
+    margin-bottom: 7%;
+    margin-right: 5px;
+    color: white;
+}
+
+
+.scroll_part
+{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid #429637; */
+    flex:wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll_part .banner
+{
+    width: 93%;
+    height: 300px;
+    /* border: 1px solid #9225b1; */
+    background: linear-gradient(to bottom left,#0E3E44,black);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.scroll_part .banner .banner_image
+{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid white; */
+    margin: 30px 20px;
+    /* background-image: url(/PROJECTS/project4/images/3.jpg); */
+}
+.scroll_part .banner .banner_image img
+{
+    height: 100%;
+    width: 100%;
+}
+
+
+.scroll_part .banner .content
+{
+    /* border: 1px solid white; */
+    height: 90%;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll_part .banner .playlist
+{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+.scroll_part .banner .playlist span
+{   color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 14px;
+    margin-top: 30px;
+}
+.scroll_part .banner .playlist button
+{
+    height: 60%;
+    width: 130px;
+    border-radius: 12px;
+    opacity: 0.4;
+    border: none;
+    color: #4a5657;
+    font-size: 13px;
+}
+
+.scroll_part .banner .content b
+{
+    font-size: 66px;
+    color: white;
+    margin-top: 4%;
+}
+.scroll_part .banner .content p
+{
+    color: white;
+    margin-top: 0.5%;
+    font-size: 15px;
+}
+.scroll_part .banner .content .select
+{
+    /* border: 1px solid white; */
+    height: 60px;
+    width: 300px;
+    margin-top:4%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+}
+.scroll_part .banner .content .select button
+{   height: 70%;
+    width: 30%;
+    border-radius: 25px;
+}
+.scroll_part .banner .content .select  .play
+{
+    background-color: #429637;
+    border: none;
+}
+
+
+
+
+
+
+

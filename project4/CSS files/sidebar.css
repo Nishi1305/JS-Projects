@@ -1,0 +1,142 @@
+header
+{
+    display: flex;
+}
+
+header .menu_side
+{
+    height: 500px;
+    width: 20%;
+    /* border: 1px solid black; */
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
+
+
+header .menu_side .menu_bar
+{
+    border-bottom: 1px solid rgb(39, 38, 38);
+    height: 230px;
+    width: 100%;
+}
+
+header .menu_side .menu_bar .menu_bar_list .lists
+{
+    /* border: 1px solid green; */
+    padding: 7px 0;
+    font-size: small;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+}
+
+header .menu_side .menu_bar .menu_bar_list .lists .lists_icon 
+{
+    margin-right: 17px;
+    font-size: 21px;
+    /* border: 1px solid red; */
+}
+
+
+header .menu_side .playlist
+{
+    /* border: 1px solid black; */
+    height: auto;
+    padding-top: 13px;
+
+}
+
+
+
+header .ellipsis_list
+{
+    height: 150px;
+    width: 130px;
+    /* border: 1px solid red; */
+    border-radius: 7px;
+    padding: 11px 0;
+    position: absolute;
+    left: -1px;
+    top: 30px;
+    background-color: #2e2e30;
+    color: white;
+    z-index: 2;
+    display: none;
+}
+
+header .ellipsis_list ._ellipsis
+{
+    /* border: 1px solid red; */
+    list-style: none;
+    height:25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 5px;
+    position: relative;
+
+}
+
+header .ellipsis_list ._ellipsis i
+{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+/* 
+.lists .lists_icon:hover .ellipsis_list
+{
+    display:block; 
+} */
+
+
+.ellipsis_list  ._ellipsis:hover
+{
+    background-color: #4e4f51;
+
+}
+
+
+._ellipsis ul
+{
+    height: auto;
+    width: 250px;
+    position:absolute ;
+    top: 7px;
+    left: 97%;
+    /* border: 1px solid blueviolet; */
+    display: none;
+    padding: 11px 0px;
+    border-radius: 10px;
+    background-color: #2e2e30;
+    box-shadow: -3px -2px 4px 1px rgba(0,0,0,0.3);
+}
+
+._ellipsis ul li
+{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    padding: 6px 30px;
+}
+
+._ellipsis:hover ul
+{
+    display: block;
+}
+._ellipsis:hover ul span
+{
+    color: #88898a;
+}
+
+
+._ellipsis ul li:hover
+{
+    background-color: #4e4f51;
+}

@@ -1,0 +1,76 @@
+.bottom
+{
+    /* border: 1px solid black; */
+    height: 69px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #181818;
+}
+
+ .bottom .music_part
+{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.bottom .music_part .image
+{
+    /* border: 1px solid black; */
+    height:48px;
+    width: 50px;
+    margin: 0 16px;
+    
+    
+}
+.bottom .music_part .image img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.bottom .music_part .music_name
+{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.bottom .music_part .music_name .music
+{
+    font-size: 15px;
+    
+}
+.bottom .music_part .music_name .singer
+{
+    font-size:10px;
+    margin-top: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.bottom .music_part .like_music
+{
+    padding-left: 50px;
+    color: white;
+    font-size: 17px;
+   
+}
+
+.bottom .music_player
+{
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+}
+ .bottom .music_set
+{
+    border: 1px solid black;
+    height: 100%;
+    width: 25%;
+}
