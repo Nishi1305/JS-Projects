@@ -5,7 +5,7 @@ header
 
 header .menu_side
 {
-    height: 500px;
+    height: 91vh;
     width: 20%;
     /* border: 1px solid black; */
     background-color: black;
@@ -17,15 +17,15 @@ header .menu_side
 header .menu_side .menu_bar
 {
     border-bottom: 1px solid rgb(39, 38, 38);
-    height: 230px;
+    height: 310px;
     width: 100%;
 }
 
 header .menu_side .menu_bar .menu_bar_list .lists
 {
     /* border: 1px solid green; */
-    padding: 7px 0;
-    font-size: small;
+    padding: 14px 0;
+    font-size: 15px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -34,10 +34,16 @@ header .menu_side .menu_bar .menu_bar_list .lists
 
 }
 
+header .menu_side .menu_bar .menu_bar_list .lists:hover
+{
+    color:rgb(171, 171, 171);
+}
+
+
 header .menu_side .menu_bar .menu_bar_list .lists .lists_icon 
 {
     margin-right: 17px;
-    font-size: 21px;
+    font-size: 22px;
     /* border: 1px solid red; */
 }
 
@@ -47,6 +53,7 @@ header .menu_side .playlist
     /* border: 1px solid black; */
     height: auto;
     padding-top: 13px;
+    cursor: pointer;
 
 }
 

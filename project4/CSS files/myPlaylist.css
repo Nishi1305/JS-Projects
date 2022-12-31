@@ -1,11 +1,20 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
 .container
 {
     display: flex;
     flex-direction: column;
     width: 80%;
     height: 100%;
-    background: linear-gradient(to bottom ,#0E3E44,#121212);
-
+    
 }
 .nav
 {
@@ -13,7 +22,7 @@
     width: 100%;
     /* border: 1px solid black ; */
     float: right;
-    background-color: transparent;
+    background-color:#850f29;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,53 +112,53 @@
 }
 
 
+
+
 .scroll_part
 {
-    height: 100%;
+    height: 300px;
     width: 100%;
-    /* border: 1px solid #429637; */
+    /* border: 1px solid #379673; */
     flex:wrap;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    background: linear-gradient(to bottom left,#850f29,#5a0a0a);
+
 }
 
-.scroll_part .banner
-{
-    width: 93%;
-    height: 300px;
-    /* border: 1px solid #9225b1; */
-    background: linear-gradient(to bottom left,#0E3E44,black);
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-}
 
-.scroll_part .banner .banner_image
+
+.scroll_part  .banner_image
 {
-    height: 200px;
-    width: 200px;
+    height: 235px;
+    width: 23%;
     /* border: 1px solid white; */
-    margin: 30px 20px;
-    /* background-image: url(/PROJECTS/project4/images/3.jpg); */
+    margin: 30px 20px 30px 40px;
+    box-shadow: 5px 5px 10px 6px rgba(27, 26, 26, 0.5);
+
+    
 }
-.scroll_part .banner .banner_image img
+
+.scroll_part  .banner_image  img
 {
-    height: 100%;
-    width: 100%;
+   height: 100%;
+   width: 100%;
+    
 }
 
 
-.scroll_part .banner .content
+
+
+.scroll_part .content
 {
     /* border: 1px solid white; */
     height: 90%;
-    width: 73%;
+    width: 70%;
     display: flex;
     flex-direction: column;
 }
 
-.scroll_part .banner .playlist
+.scroll_part .playlist
 {
     height: 50px;
     width: 100%;
@@ -157,13 +166,13 @@
     display: flex;
     justify-content: space-between;
 }
-.scroll_part .banner .playlist span
+.scroll_part .playlist span
 {   color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-size: 14px;
     margin-top: 30px;
 }
-.scroll_part .banner .playlist button
+.scroll_part .playlist button
 {
     height: 60%;
     width: 130px;
@@ -174,66 +183,15 @@
     font-size: 13px;
 }
 
-.scroll_part .banner .content b
+.scroll_part .content b
 {
     font-size: 66px;
     color: white;
     margin-top: 4%;
 }
-.scroll_part .banner .content p
+.scroll_part .content p
 {
     color: white;
     margin-top: 0.5%;
     font-size: 15px;
-}
-.scroll_part .banner .content .select
-{
-    /* border: 1px solid white; */
-    height: 60px;
-    width: 280px;
-    margin-top:4%;
-    /* margin-left: 50px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-
-}
-.scroll_part .banner .content .select button
-{   height: 70%;
-    width: 35%;
-    border-radius: 25px;
-    cursor: pointer;
-}
-.scroll_part .banner .content .select  .play
-{
-    background-color: #429637;
-    border: none;
-}
-
-.scroll_part .banner .content .select  .follow
-{
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-}
-
-.scroll_part .banner .content .select  .follow:hover
-{
-    background-color: black;
-    border: 2px solid white;
-}
-
-.scroll_part .banner .content .select  .play:hover
-{
-    border: 2px solid black;
-}
-
-
-
-
-
-
-
-
-
+} 
