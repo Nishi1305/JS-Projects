@@ -6,6 +6,10 @@
     font-family: 'Ubuntu', sans-serif;
 
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
 .container
@@ -195,3 +199,83 @@
     margin-top: 0.5%;
     font-size: 15px;
 } 
+
+
+.container .search 
+{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181129;
+    background: linear-gradient(to bottom,#5a0a0a,#2d0c13);
+
+    
+}
+
+.container .search .box1
+{
+    height:70%;
+    width: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.container .search .box1 i
+{
+    color: white;
+    font-size: 30px;
+
+}
+
+.container .search .box1 #play_likedsong
+{
+    font-size: 60px;
+    color:green;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.container .search .box2
+{
+    height:70%;
+    width: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+.container #my_table
+{
+    padding: 10px 30px;
+    color: rgb(152, 149, 149);
+    font-size: 13px;
+    background: linear-gradient(to bottom,#2d0c13,#1a1a1b);
+    
+
+}
+
+
+.container #my_table  tr td img
+{
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+
+
+
+
+

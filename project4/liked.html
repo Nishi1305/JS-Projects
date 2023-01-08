@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Liked Songs</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./CSS files/liked_page.css">
@@ -93,7 +93,7 @@
                         </ul>
 
                     </li>
-                    <li class="lists"><i class="lists_icon fa-solid fa-house"></i> Home</li>
+                    <li class="lists"><i class="lists_icon fa-solid fa-house"></i><a href="./index.html">Home</a></li>
                     <li class="lists"><i class="lists_icon fa-solid fa-magnifying-glass"></i> Search</li>
                     <li class="lists"><i class="lists_icon fa-brands fa-dropbox"></i> Your Library</li>
                     <li class="lists"><i class="lists_icon fa-solid fa-square-plus"> </i> Create Playlist</li>
@@ -103,7 +103,7 @@
             </div>
             <div class="playlist">
 
-                <span>My Playlist</span>
+                <span><a href="./myPlaylist.html">My Playlist</a> </span>
 
             </div>
 
@@ -147,9 +147,63 @@
                     <p>Listen to some chill beats and sooting lofi songs to relax and focus...</p>
     
                 </div>
+
+              
     
     
             </div>
+
+            <div class="search">
+                <div class="box1">
+                <i id="play_likedsong" class="fa-solid fa-circle-play"></i>
+                <i class="fa-regular fa-circle-down"></i>
+            </div>
+                <div class="box2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Date Added <i class="fa-sharp fa-solid fa-caret-down"></i></span>
+
+                </div>
+
+            </div>
+
+            <table id="my_table">
+                <tr class="header">
+                    <th>#</th>
+                    <th>TITLE</th>
+                    <th>ALBUM</th>
+                    <th>DATE ADDED</th>
+                    <th><i class="fa-regular fa-clock"></i></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </table>
 
         </div>
 
@@ -206,7 +260,8 @@
 
 
 
-    <script src="" async defer></script>
+    <script src="./JS files/script.js" async defer></script>
+
 </body>
 
 </html>

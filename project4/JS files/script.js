@@ -10,3 +10,7 @@ hover.addEventListener('dblclick',()=>{
     submenu.style.display = "none";
  });
  
+
+let liked = document.getElementById(liked);
+let liked_page = liked.link("http://127.0.0.1:5500/PROJECTS/project4/liked.html");
+
