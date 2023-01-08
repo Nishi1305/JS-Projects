@@ -13,3 +13,9 @@ a{
     text-decoration: none;
     color: #fff;
 }
+
+.scroll_part .boxes
+{
+    height: 500px;
+    width: 100%;
+}
