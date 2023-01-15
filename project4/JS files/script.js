@@ -19,6 +19,8 @@ let playPause = document.querySelector('#playPause');
 let next = document.querySelector('.next');
 let audio = document.querySelector('audio');
 let img = document.querySelector('.Song_cover');
+let myProgress = document.getElementById('myProgressBar');
+
 
 
 
@@ -125,10 +127,10 @@ let song_Playing = false;
 function playSong(){
    song_Playing = true;
    audio.play();
-   playPause.classList.add('active');
+   playPause.classList.add('fa-circle-pause');
    //change icon
 
-   // playPause.innerHTML ="<i class="fa-solid fa-circle-pause"></i>";
+   // playPause.innerHTML = `<i class="fa-solid fa-circle-pause"></i>`;
 }
 
 //Pause song//
@@ -136,9 +138,9 @@ function playSong(){
 function pauseSong(){
    song_Playing = false;
    audio.pause();
-   playPause.classList.remove('active');
+   playPause.classList.remove('fa-circle-pause');
 
-   // playPause.innerHTML ="<i class="fa-solid fa-circle-play"></i>";
+   // playPause.innerHTML =`<i class="fa-solid fa-circle-play"></i>`;
 
 }
 
@@ -208,6 +210,17 @@ next.addEventListener("click",prevSong);
 
 
 
+audio.addEventListener('timeupdate', ()=>{
+   console.log('timeupdate');
+
+   progress = parseInt((audio.currentTime/audio.duration)*100);
+   console.log(progress);
+   myProgress.value =progress
+})
+
+myProgress.addEventListener('change',()=>{
+   audio.currentTime = myProgress.value * audio.duration/100;
+})
 
 
 
@@ -221,55 +234,3 @@ next.addEventListener("click",prevSong);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $(".my_songs").trigger('load');
-// function play_audio(task){
-//    if (task == 'play'){
-//       $(".mysongs").trigger('play');
-//    }
-//    if (task =='stop'){
-//       $(".my_songs").trigger(pause);
-//       $(".my_songs").prop("currentTime",0);
-
-//    }
-// }
-
-
-// //load
-
-// keys = Object.keys(playlist);
-// $('.my_songs').append("<source id='sound_src' src=" + playlist[keys[0]]  + "type='audio/mpeg'>");
-
-
-
-// //reset
-
-// count = 0;
-// $('my_songs').on('ended', function(){
-//    count++;
-//    $("#sound_src").attr("src", playlist[keys[count]])[0];
-//    $(".my_audio").trigger('load');
-//    play_audio('play');
-// })

@@ -11,14 +11,23 @@ a{
     color: #fff;
 }
 
+#body
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+    height: calc(100vh - 80px);
+}
+
 
 .container
 {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 82%;
     height: 100%;
     background: linear-gradient(to bottom left,#4c3795,#271c4d);
+    overflow: auto;
     
 
 }
@@ -261,11 +270,21 @@ a{
 {
     padding: 10px 30px;
     color: rgb(152, 149, 149);
-    font-size: 13px;
+    font-size: 15px;
     background: linear-gradient(to bottom,#1e1933,#1a1a1b);
-
+    
 
 }
+
+
+.container #my_table  tr td img
+{
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
 
 
 

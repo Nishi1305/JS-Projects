@@ -18,6 +18,8 @@
 
 <body>
 
+    <div id="body">
+
     <header>
         <div class="menu_side">
             <div class="menu_bar">
@@ -109,6 +111,7 @@
 
         </div>
 
+    </header>
 
 
         <div class="container">
@@ -169,39 +172,104 @@
             <table id="my_table">
                 <tr class="header">
                     <th>#</th>
-                    <th>TITLE</th>
+                    <th class="cover">TITLE</th>
                     <th>ALBUM</th>
                     <th>DATE ADDED</th>
                     <th><i class="fa-regular fa-clock"></i></th>
                 </tr>
+
                 <tr>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="play_song">1</td>
+                    <td class="cover"><img src="./images/1.jpg" alt="">Perfect</td>
+                    <td>Ed Sheeran</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
+                </tr>
+
+              
+                
+                <tr>
+                    <td id="play_song">2</td>
+                    <td class="cover"><img src="./images/m2.jpg" alt="">Breathing</td>
+                    <td>Therapy</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
+                </tr>
+
+                <tr>
+                    <td id="play_song">3</td>
+                    <td class="cover"><img src="./images/m3.jpg" alt=""><span>Closer</span></td>
+                    <td>Closer</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="play_song">4</td>
+                    <td class="cover"><img src="./images/m4.jpg" alt=""><span>Mehmaan</span></td>
+                    <td>Mismatched</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
                 </tr>
+
                 <tr>
-                    <td>3</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="play_song">5</td>
+                    <td class="cover"><img src="./images/m5.jpg" alt=""><span>Kahani</span></td>
+                    <td>Pritam-("Laal Singh")</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
                 </tr>
+
+                
                 <tr>
-                    <td>4</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td id="play_song">6</td>
+                    <td class="cover"><img src="./images/m6.jpg" alt=""><span>You broke me first</span></td>
+                    <td>you broke me first</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
                 </tr>
+
+             
+                <tr>
+                    <td id="play_song">7</td>
+                    <td class="cover"><img src="./images/m7.jpg" alt=""><span>Without Me</span></td>
+                    <td>Manic</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
+                </tr>
+
+                <tr>
+                    <td id="play_song">8</td>
+                    <td class="cover"><img src="./images/m8.jpg" alt=""><span>Kitni Haseen Hogi</span></td>
+                    <td>Arijit Singh</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
+                </tr>
+
+
+                <tr>
+                    <td id="play_song">9</td>
+                    <td class="cover"><img src="./images/m9.jpg" alt=""><span>Soch Liya</span></td>
+                    <td>Radhe Shyam</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
+                </tr>
+               
+                <tr>
+                    <td id="play_song">10</td>
+                    <td class="cover"><img src="./images/m10.jpg" alt=""><span>What If</span></td>
+                    <td>Jhhnny Orlando</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
+                </tr>
+               
+                <tr>
+                    <td id="play_song">11</td>
+                    <td class="cover"><img src="./images/m11.jpg" alt=""><span>Rang Lageya</span></td>
+                    <td>Mohit Chauhan</td>
+                    <td><pre>Jan 7,2023</pre></td>
+                    <td>3:24</td>
+                </tr>
+
 
             </table>
 
@@ -210,47 +278,49 @@
 
         
 
-    </header>
 
-    <div class="bottom">
+</div>
 
-        <div class="music_part">
+<div class="bottom">
 
-            <div class="image">
-                <img src="images/1.jpg" alt="">
-            </div>
+    <div class="music_part">
 
-            <div class="music_name">
-                <span class="music"><b>Perfect</b> </span>
-                <span class="singer">Ed Sheeran</span>
-            </div>
-
-            <div class="like_music">
-                <i class="fa-regular fa-heart"></i>
-            </div>
+        <div class="image">
+            <img class="Song_cover" src="" alt="">
         </div>
 
-        <div class="music_player">
-            <div class="icons">
+        <div class="music_name">
+            <span class="music title"><b>Perfect</b> </span>
+            <span class="singer album">Ed Sheeran</span>
+        </div>
+
+        <div class="like_music">
+            <i class="fa-regular fa-heart"></i>
+        </div>
+    </div>
+
+    <div class="music_player">
+        <audio src=""></audio>
+        <div class="icons">
             <i class="fa-solid fa-shuffle"></i>
-            <i class="fa-solid fa-backward-step"></i>
-            <i id="play" class="fa-solid fa-circle-play"></i>
-            <i class="fa-solid fa-forward-step"></i>
+            <i class="prev fa-solid fa-backward-step"></i>
+            <i id="playPause" class="fa-solid fa-circle-play"></i>
+            <i class="next fa-solid fa-forward-step"></i>
             <i class="fa-solid fa-repeat"></i>
         </div>
 
-            <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
 
-        </div>
-        <div class="music_set">
-            <i class="fa-solid fa-eye-low-vision"></i>
-            <i class="fa-solid fa-headphones"></i>
-            <i class="fa-solid fa-mobile"></i>
-            <i class="fa-solid fa-volume-high"></i>
-            <input type="range" name="range" min="0" max="100">
-
-        </div>
     </div>
+    <div class="music_set">
+        <i class="fa-solid fa-eye-low-vision"></i>
+        <i class="fa-solid fa-headphones"></i>
+        <i class="fa-solid fa-mobile"></i>
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range" name="range" min="0" max="100">
+
+    </div>
+</div>
 
 
 

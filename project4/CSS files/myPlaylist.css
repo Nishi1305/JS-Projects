@@ -11,14 +11,22 @@ a{
     color: #fff;
 }
 
+#body
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+    height: calc(100vh - 80px);
+}
 
 .container
 {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 82%;
     height: 100%;
-    
+    /* border: 1px solid lime; */
+    overflow: auto;
 }
 .nav
 {
@@ -261,18 +269,43 @@ a{
     color: rgb(152, 149, 149);
     font-size: 15px;
     background: linear-gradient(to bottom,#2d0c13,#1a1a1b);
-    
+    /* border: 1px solid white; */
 
 }
 
+#my_table .header th{
+    text-align: left;
+}
+
+#my_table .header #chenter
+{
+    text-align: center;
+}
 
 .container #my_table  tr td img
 {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 50px;
     width: 50px;
     margin-right: 15px;
 }
+
+#my_table .header 
+{
+    border: 3px solid white;
+
+}
+th
+{
+    border-bottom: 1px solid #fff;
+}
+td{
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
 
 
 
